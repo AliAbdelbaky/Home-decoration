@@ -1,0 +1,46 @@
+#fullpage
+    h1
+        position: absolute
+        top: 20%
+        left: 50%
+        transform: translate(-50%,-20%)
+        font-size: $main-fontSize
+        background: linear-gradient(to left, $s1-first-gradient-Font-c,$s1-second-gradient-Font-c)
+        -webkit-background-clip: text
+        color: transparent
+    .s1
+        background-image: url('../img/couch.jpg')
+        background-size: cover
+        // object-fit: cover
+    .s2
+        background: linear-gradient(to left, $s2-first-gradient-Font-c,$s2-second-gradient-Font-c)
+        h1
+            background: linear-gradient(to left, $s2H1-first-gradient-Font-c,$s2H1-second-gradient-Font-c)
+            -webkit-background-clip: text
+            color: transparent
+            font-size: $main-fontSize - 1rem
+        .chair
+            position: absolute
+            height: 60%
+            top: 70%
+            left: 50%
+            transform: translate(-50%,-70%)
+        .description
+            width: 40%
+            margin: 5%
+            margin-left: 5%
+            font-size: $p-fontSize
+            p
+                margin: 3rem 0rem
+    .s3
+        p
+            position: absolute
+            top: 50%
+            left: 50%
+            transform: translate(-50%, -20%)
+            font-size: 4rem
+            background: linear-gradient(to left, #34495e, #2c3e50)
+            -webkit-background-clip: text
+            color: transparent
+            font-weight: 600
+            letter-spacing: 5px
